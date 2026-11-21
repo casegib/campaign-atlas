@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6ea8ff" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#6ea8ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#6ea8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="url(#halo)"/>
+  <g stroke="#dbe4f5" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" fill="rgba(15,22,40,0.85)">
+    <!-- hull -->
+    <path d="M256 78 L318 256 L300 340 L212 340 L194 256 Z"/>
+    <!-- wings -->
+    <path d="M194 250 L110 330 L128 366 L206 330"/>
+    <path d="M318 250 L402 330 L384 366 L306 330"/>
+    <!-- cockpit -->
+    <path d="M256 150 L281 240 L231 240 Z" fill="#6ea8ff" stroke="none" opacity="0.9"/>
+  </g>
+  <!-- engine glow -->
+  <path d="M224 352 L232 408 M256 352 L256 424 M288 352 L280 408" stroke="#6ea8ff" stroke-width="16" stroke-linecap="round" opacity="0.85"/>
+</svg>

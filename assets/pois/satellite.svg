@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9ad6ff" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#9ad6ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#9ad6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="url(#halo)"/>
+  <g transform="rotate(-35 256 256)">
+    <!-- panels -->
+    <g fill="rgba(20,40,72,0.9)" stroke="#dbe4f5" stroke-width="11">
+      <rect x="60" y="222" width="120" height="68" rx="6"/>
+      <rect x="332" y="222" width="120" height="68" rx="6"/>
+    </g>
+    <g stroke="#9ad6ff" stroke-width="7" opacity="0.8">
+      <path d="M100 222 v68 M140 222 v68 M372 222 v68 M412 222 v68"/>
+    </g>
+    <!-- struts -->
+    <path d="M180 256 h32 M300 256 h32" stroke="#dbe4f5" stroke-width="11"/>
+    <!-- body -->
+    <rect x="212" y="216" width="88" height="80" rx="10" fill="rgba(15,22,40,0.9)" stroke="#dbe4f5" stroke-width="12"/>
+    <!-- dish -->
+    <path d="M256 216 L256 172" stroke="#dbe4f5" stroke-width="10"/>
+    <path d="M212 168 a44 26 0 0 1 88 0" fill="rgba(15,22,40,0.9)" stroke="#dbe4f5" stroke-width="10"/>
+    <circle cx="256" cy="150" r="8" fill="#9ad6ff"/>
+  </g>
+  <!-- signal -->
+  <g stroke="#9ad6ff" stroke-width="8" fill="none" opacity="0.7">
+    <path d="M330 128 a52 52 0 0 1 34 34"/>
+    <path d="M348 96 a86 86 0 0 1 52 52"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#97a3b8" stop-opacity="0.2"/>
+      <stop offset="70%" stop-color="#97a3b8" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#97a3b8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="url(#halo)"/>
+  <g transform="rotate(24 256 256)">
+    <!-- fore hull -->
+    <path d="M256 92 L312 220 L296 252 L216 252 L200 220 Z" fill="rgba(15,22,40,0.85)" stroke="#97a3b8" stroke-width="13" stroke-linejoin="round"/>
+    <!-- breach gap -->
+    <!-- aft hull, drifting apart -->
+    <path d="M226 296 L292 300 L306 352 L262 396 L214 360 Z" fill="rgba(15,22,40,0.85)" stroke="#97a3b8" stroke-width="13" stroke-linejoin="round"/>
+    <!-- torn edges -->
+    <path d="M216 252 L230 272 M296 252 L284 274 M240 254 L248 270 M272 254 L266 272" stroke="#97a3b8" stroke-width="9" stroke-linecap="round"/>
+    <!-- debris -->
+    <g fill="#97a3b8" opacity="0.85">
+      <circle cx="150" cy="210" r="9"/>
+      <circle cx="352" cy="262" r="7"/>
+      <circle cx="168" cy="330" r="6"/>
+      <path d="M348 172 l16 6 -6 16 -16 -6 Z"/>
+      <path d="M140 282 l14 4 -4 14 -14 -4 Z"/>
+    </g>
+    <!-- faint dying light -->
+    <circle cx="256" cy="180" r="12" fill="#c9d4e8" opacity="0.5"/>
+  </g>
+</svg>

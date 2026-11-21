@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c08bff" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#c08bff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#c08bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#efe2ff" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#c08bff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#c08bff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="url(#halo)"/>
+  <!-- outer hex gate -->
+  <path d="M256 76 L406 166 L406 346 L256 436 L106 346 L106 166 Z" fill="rgba(15,22,40,0.85)" stroke="#dbe4f5" stroke-width="14" stroke-linejoin="round"/>
+  <!-- inner hex -->
+  <path d="M256 136 L354 196 L354 316 L256 376 L158 316 L158 196 Z" fill="none" stroke="#c08bff" stroke-width="10" stroke-linejoin="round" opacity="0.9"/>
+  <!-- vortex -->
+  <circle cx="256" cy="256" r="74" fill="url(#core)"/>
+  <g stroke="#efe2ff" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M256 200 a56 56 0 0 1 56 56"/>
+    <path d="M256 312 a56 56 0 0 1 -56 -56"/>
+  </g>
+  <!-- gate nodes -->
+  <g fill="#c08bff">
+    <circle cx="256" cy="76" r="14"/>
+    <circle cx="406" cy="166" r="14"/>
+    <circle cx="406" cy="346" r="14"/>
+    <circle cx="256" cy="436" r="14"/>
+    <circle cx="106" cy="346" r="14"/>
+    <circle cx="106" cy="166" r="14"/>
+  </g>
+</svg>

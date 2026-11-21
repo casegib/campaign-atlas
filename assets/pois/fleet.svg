@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6ea8ff" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#6ea8ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#6ea8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="url(#halo)"/>
+  <g stroke="#dbe4f5" stroke-width="13" stroke-linejoin="round" stroke-linecap="round" fill="rgba(15,22,40,0.85)">
+    <!-- lead ship -->
+    <path d="M256 96 L300 216 L256 250 L212 216 Z"/>
+    <!-- port wing ship -->
+    <path d="M150 240 L188 340 L150 368 L112 340 Z"/>
+    <!-- starboard wing ship -->
+    <path d="M362 240 L400 340 L362 368 L324 340 Z"/>
+  </g>
+  <g stroke="#6ea8ff" stroke-width="12" stroke-linecap="round" opacity="0.85">
+    <path d="M256 262 L256 306"/>
+    <path d="M150 380 L150 416"/>
+    <path d="M362 380 L362 416"/>
+  </g>
+</svg>

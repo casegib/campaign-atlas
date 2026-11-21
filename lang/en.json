@@ -1,0 +1,1660 @@
+{
+  "CAMPAIGN_ATLAS": {
+    "BattleMap": {
+      "Back": "Back",
+      "Build": "Build scene",
+      "Building": "Building…",
+      "Cancel": "Cancel",
+      "Control": "Build battle map",
+      "Cover": {
+        "Heavy": "Heavy cover",
+        "Light": "Light cover",
+        "Normal": "Normal cover"
+      },
+      "Dialog": {
+        "ChecksFailed": "This layout missed a playability check after every retry — reroll for another.",
+        "CreateNote": "Builds a Foundry scene: the painted map, walls and doors, impassable lines, a difficult-terrain region, GM-only deployment, crate and mission-object markers, and the hero entry.",
+        "Head": "{place} · {piece} · {biome}{reroll}",
+        "NoBiome": "no biome",
+        "RegenerateNote": "This mission already has a battle map. Regenerating replaces its picture, walls, difficult-terrain region and markers; tokens, lights, and walls or drawings you added yourself are kept.",
+        "RerollN": " · reroll {n}"
+      },
+      "Error": {
+        "Dialog": "Campaign Atlas: the battle map preview could not open.",
+        "GmOnly": "Campaign Atlas: only a GM can build battle maps.",
+        "NotFound": "Campaign Atlas: that place is no longer in the atlas — re-import the city map and try again.",
+        "Uncalibrated": "Campaign Atlas: calibrate this deck plan’s grid in the Campaign Manager’s vessel view to stage it as a battle map."
+      },
+      "Marker": {
+        "Crate": "Crate",
+        "Deployment": "Imperial deployment",
+        "Entry": "Hero entry"
+      },
+      "Notify": {
+        "Created": "Campaign Atlas: battle map \"{name}\" built.",
+        "NoCityPlace": "Campaign Atlas: battle maps need a mission placed at a city point of interest, a settlement with a city map, or a ship or station.",
+        "Regenerated": "Campaign Atlas: battle map \"{name}\" regenerated — tokens, lights and your own edits kept.",
+        "Unbaked": "Campaign Atlas: the painted map could not be saved to this world (uploads refused?) — the scene has its walls and markers on a plain board.",
+        "NoObjectType": "Campaign Atlas: this game system has no \"object\" actor type, so mission objects were not placed.",
+        "Unplaced": "Campaign Atlas: no place on this map for {names} — a door needs a doorway; reroll, or place it yourself."
+      },
+      "Objects": {
+        "Head": "Mission objects — where they could go",
+        "None": "The mission's objectives name no terminal, crate, door or the like. Add one if it needs it.",
+        "Include": "Place this object",
+        "Remove": "Remove",
+        "Add": "Add object",
+        "Kind": {
+          "terminal": "Terminal",
+          "crate": "Crate",
+          "door": "Door",
+          "generator": "Generator",
+          "fuel": "Fuel tank",
+          "comms": "Comms array",
+          "objective": "Objective"
+        },
+        "Color": {
+          "plain": "Plain",
+          "red": "Red",
+          "blue": "Blue",
+          "green": "Green",
+          "yellow": "Yellow"
+        },
+        "ColorTitle": "Objective colour",
+        "PlaceTokens": "Place as hidden tokens (swia objects) instead of GM-only markers"
+      },
+      "Town": {
+        "Fallback": "Built from the kind of place, not the town’s streets: battle maps can’t read {where} yet.",
+        "NoLayer": "Built from the kind of place, not the town’s streets: this town’s buildings are not in the atlas yet (re-import its city map).",
+        "Where": {
+          "sea": "the shore",
+          "quay": "quays",
+          "harbour": "harbours",
+          "cavern": "cavern towns",
+          "crater": "crater towns"
+        }
+      },
+      "PanelAction": "Battle map here",
+      "PanelActionTitle": "Open this point of interest’s battle map: preview it, then build it as a Foundry scene",
+      "Regenerate": "Regenerate scene",
+      "Region": {
+        "Difficult": "Difficult terrain"
+      },
+      "Reroll": "Reroll",
+      "Size": {
+        "Large": "Large (36 × 26)",
+        "Small": "Small (20 × 16)",
+        "Standard": "Standard (28 × 20)"
+      },
+      "Vessel": {
+        "SectionShown": "Section the vessel view shows",
+        "SectionTitle": "Which part of the vessel to stage",
+        "RerollTitle": "Move the Imperial deployment and the crates; the deck is the vessel’s own",
+        "CreateNote": "Stages the deck as a Foundry scene: the painted deck, walls and doors, the edges where you can see out into space but not walk, torn plating as difficult terrain, GM-only deployment, crate and mission-object markers, and where the heroes come aboard.",
+        "Unreached": "Much of this deck cannot be reached from where the heroes come aboard.",
+        "Section": {
+          "hangar": "Hangar bay section",
+          "command": "Command deck section",
+          "docking": "Docking section"
+        }
+      },
+      "Tier": {
+        "BackToTown": "Back to the town",
+        "RegenerateNote": "This place already has a battle map. Regenerating replaces its picture, walls, difficult-terrain region and markers; tokens, lights, and walls or drawings you added yourself are kept.",
+        "Built": "Built — the scene is open behind this window. Activate it in Foundry when the players should see it."
+      },
+      "Handoff": {
+        "Here": "Battle map here",
+        "Hint": "Keep scrolling in for this spot’s battle map",
+        "NotShown": "Players stay where they are: this spot is hidden from them."
+      },
+      "Edit": {
+        "Open": "Edit map",
+        "OpenTitle": "Move, turn, remove or add props before you build",
+        "Done": "Done editing",
+        "PaletteTitle": "What to add",
+        "Add": "Add",
+        "Adding": "Click the map to place it",
+        "AddTitle": "Then click the map where it goes",
+        "Turn": "Turn",
+        "TurnTitle": "Turn the picked prop a quarter (R)",
+        "Remove": "Remove",
+        "RemoveTitle": "Remove the picked prop (Delete)",
+        "Undo": "Undo",
+        "UndoTitle": "Undo (Ctrl+Z)",
+        "Redo": "Redo",
+        "RedoTitle": "Redo (Ctrl+Y)",
+        "Reset": "Reset edits",
+        "ResetTitle": "Back to the map as generated",
+        "Hint": "Click a prop to pick it; drag it to move it. {n} edits.",
+        "Count": "{n} edits to the generated map.",
+        "DropAsk": "That makes another map: your {n} edits would be dropped.",
+        "DropYes": "Drop them",
+        "DropNo": "Keep editing",
+        "Dropped": "{n} of your edits no longer fit this map and were dropped: a prop is gone, or its spot is taken.",
+        "ChecksFailed": "With your edits this map misses: {checks}. It is your map — Build still works.",
+        "Check": {
+          "reachable": "every space reachable",
+          "coverage": "cover within reach",
+          "sightline": "no long open lines",
+          "twoRoutes": "two ways to the objective",
+          "deployDistance": "deployment zones far enough apart",
+          "deploySpread": "deployment points spread out",
+          "difficultShare": "not too much rough ground",
+          "obstructionShare": "not too cluttered"
+        }
+      }
+    },
+    "Body": {
+      "Notify": {
+        "NameCannotBeEmpty": "a body name cannot be empty.",
+        "PrimaryStarAnchors": "the primary star anchors the system and cannot be removed.",
+        "SelectPlanetBeforeMoon": "select a planet before adding a moon.",
+        "StarCapReached": "{name} already has {count} stars (trinary is the cap)."
+      }
+    },
+    "Contact": {
+      "GmBadge": "Players see an unresolved contact",
+      "Label": "Unresolved sensor contact"
+    },
+    "Content": {
+      "Overview": {
+        "Missions": "Missions"
+      },
+      "Sync": {
+        "GMOnly": "Only the GM can sync from the Campaign Manager.",
+        "Started": "IA-Companion: syncing from the Campaign Manager…",
+        "FetchFailed": "IA-Companion sync failed to reach the Campaign Manager: {error}",
+        "BadFormat": "IA-Companion: unexpected export format from the Campaign Manager.",
+        "Failed": "IA-Companion sync failed: {error}",
+        "Done": "IA-Companion sync complete — journals: {journalsCreated} created, {journalsUpdated} updated; actors: {actorsCreated} created, {actorsUpdated} updated.",
+        "DoneHeroes": "IA-Companion sync complete — journals: {journalsCreated} created, {journalsUpdated} updated; actors: {actorsCreated} created, {actorsUpdated} updated (heroes: {heroesCreated} created, {heroesUpdated} updated).",
+        "ActorErrors": "IA-Companion: {count} actor(s) could not be synced — check the Actor type settings for synced heroes and NPCs against the active system’s actor types.",
+        "Orphans": "IA-Companion: {journals} journal(s) and {actors} actor(s) are no longer in the Campaign Manager and were renamed “[Deleted] …”. Their contents are kept; delete them in Foundry when you’re ready."
+      }
+    },
+    "Dialog": {
+      "Cancel": "Cancel",
+      "CityGenerate": {
+        "AnchoredQuartersNote": "Anchored quarters land on the nearest edge slot to the compass cell you picked, not exactly on it — the generator keeps its own clearances.",
+        "BlendedRerollNote": "Blended lays the whole map out as districts that meet at shared streets. Reroll re-draws the region boundaries; existing districts keep their old outlines — delete districts first for a clean reroll.",
+        "PresetApplies": "Preset: {preset}. Its base streets replace the ones this settlement type would draw on its own.",
+        "PresetIgnored": "Preset: {preset} — ignored, presets apply to the classic layout.",
+        "QuartersRerollNote": "Quarters move with the new seed. Existing quarter districts keep their old outlines — delete them first for a clean reroll.",
+        "RegenerateTitle": "Regenerate this city?",
+        "ReplacesLayer": "This replaces the generated building and road layer, including anything stamped or drawn by hand. Districts and points of interest are not touched.",
+        "RerollTitle": "Reroll this city?"
+      },
+      "ClearDetail": {
+        "Body": "Clear the detail in {name}? {count} painted items (terrace rows, huts, parking bays, props and parked craft) go from the map. Regenerate brings new detail back.",
+        "Ok": "Clear detail",
+        "Title": "Clear detail"
+      },
+      "Delete": {
+        "Title": "Delete"
+      },
+      "DeleteSelection": {
+        "Connection": "this connection",
+        "Drawing": "this drawing",
+        "Marker": "this marker",
+        "Message": "Delete {what}?",
+        "Sector": "this sector",
+        "System": "this system (and every connection touching it)"
+      },
+      "Generate": {
+        "Regenerate": "Regenerate",
+        "RegenerateTitle": "Regenerate this world?",
+        "ReplacesContent": "Generating replaces this map's content.",
+        "Reroll": "Reroll",
+        "RerollTitle": "Reroll this world?"
+      },
+      "NewDistrict": {
+        "Title": "New district"
+      },
+      "NewRegion": {
+        "Title": "New region"
+      },
+      "NewRiver": {
+        "Default": "New River",
+        "Title": "New river"
+      },
+      "Place": "Place",
+      "PlacePoi": {
+        "InDistrict": "In district: {name}",
+        "OutsideDistrict": "Outside every district (recorded as unassigned)",
+        "PromptFallback": "Place point of interest — name",
+        "Title": "Place point of interest"
+      },
+      "PlaceSettlement": {
+        "InRegion": "In region: {name}",
+        "Name": "Name",
+        "NameDefault": "New Settlement",
+        "OutsideRegion": "Outside every drawn region (recorded as unassigned)",
+        "PromptFallback": "Place settlement — name",
+        "Title": "Place settlement",
+        "Type": "Type"
+      },
+      "PromptName": {
+        "Create": "Create",
+        "Label": "Name"
+      },
+      "Close": "Close"
+    },
+    "Dossier": {
+      "NotAvailableYet": "No dossier available for that system yet.",
+      "NotViewingAtlasScene": "Not viewing an atlas scene."
+    },
+    "Draw": {
+      "BuildingPointLimit": "A building outline with {count} points exceeds the {max}-point limit.",
+      "CapNoun": {
+        "Building": "buildings",
+        "Pad": "landing pads",
+        "Road": "roads",
+        "Wall": "wall sections"
+      },
+      "CapRefusalForAdd": "This city map already has {count} {noun} — the Campaign Manager caps them at {cap}. Erase some before adding more.",
+      "CityGenerate": {
+        "Created": "Created {count} zone{s}.",
+        "Skipped": "Zones left alone — this map already has {count} district{s}. Delete them to regenerate zones.",
+        "PoisAdded": " Added {count} point{s} of interest."
+      },
+      "DeleteConfirm": {
+        "Generic": "Delete the {noun} {label} from the Campaign Manager?",
+        "ItsCityMap": "its city map",
+        "RouteCount": "{count} route{s}",
+        "Settlement": "Delete the settlement {label} from the Campaign Manager?{tail}",
+        "Tail": " This also deletes {parts}.",
+        "ThisNoun": "this {noun}"
+      },
+      "DeleteNoun": {
+        "District": "district",
+        "Poi": "point of interest",
+        "Region": "region",
+        "River": "river",
+        "Route": "route",
+        "Settlement": "settlement"
+      },
+      "DisplayStyle": {
+        "Atlas": "Show as an atlas plate",
+        "Holo": "Show as a holo display",
+        "Natural": "Show natural terrain"
+      },
+      "EntityNeedsPoints": "A {entity} needs at least {min} points.",
+      "GenerateConfirm": {
+        "ManyCityMaps": "{count} settlements have city maps that will be deleted with them.",
+        "MissionsAtRisk": "Missions attached to content that will be deleted: {count}.",
+        "OneCityMap": "1 settlement has a city map that will be deleted with it.",
+        "Summary": "{regions} region{regionsS}, {settlements} settlement{settlementsS}, {routes} route{routesS} and {rivers} river{riversS} will be replaced."
+      },
+      "LayerOverCap": "This building layer has {count} {key} — the Campaign Manager accepts at most {cap}.",
+      "LayerUnreadable": "This city map's building layer is in a shape the atlas does not recognise — edit it in the Campaign Manager, or regenerate the layer here.",
+      "LineNeedsPoints": "A line needs at least {min} points — click {remaining} more.",
+      "PadRadiusRange": "A landing pad radius of {r} is outside the accepted 1…{max} range.",
+      "RiverPathLimited": "A river path is limited to {max} points (this one has {count}).",
+      "RoadPointLimit": "A road with {count} points exceeds the {max}-point limit.",
+      "RouteAlreadyLinked": "These settlements are already linked by a route.",
+      "RouteNeedsTwoSettlements": "A route needs two different settlements.",
+      "ShapeNeedsPoints": "A shape needs at least {min} points — click {remaining} more.",
+      "WallPointLimit": "A wall with {count} points exceeds the {max}-point limit.",
+      "DetailOverCap": "This town has {count} painted items — the Campaign Manager accepts at most {cap}."
+    },
+    "Editor": {
+      "Recentre": "Recentre"
+    },
+    "Gen": {
+      "AddToGalaxy": "Add to Galaxy",
+      "ClickPreviewHint": "Click Preview to generate a summary.",
+      "Close": "Close",
+      "CustomSystemNames": "Custom system names",
+      "Field": {
+        "Connectivity": "Connectivity",
+        "CreateSectorEntity": "Create sector entity",
+        "Height": "Height",
+        "NameOptional": "Name (optional)",
+        "PlayerVisible": "Player visible",
+        "RegionX": "Region X",
+        "RegionY": "Region Y",
+        "SectorNameOptional": "Sector name (optional)",
+        "Seed": "Seed",
+        "SystemCount": "System count",
+        "Width": "Width",
+        "X": "X",
+        "Y": "Y"
+      },
+      "LoadFromFile": "Load from file…",
+      "Mode": {
+        "Sector": "Sector",
+        "SingleSystem": "Single System"
+      },
+      "NamesLoadedStats": "{loaded} loaded · {available} currently available.",
+      "NamesPlaceholder": "One system name per line (a CSV’s first column also works) — e.g.\nHexubnan\nZepheon\nKestrel Anchorage",
+      "NamesUsageNote": "Names are used up front, in random order, and never repeated within one galaxy — a name already used by an existing system is skipped. Once every name here has been used, remaining systems fall back to the built-in generator automatically.",
+      "NoNamesLoadedYet": "No names loaded yet.",
+      "Notify": {
+        "Added": "added {systems}{sectorClause} ({planets}, {moons}, {belts}, {connections}).",
+        "CommitFailed": "Commit failed: {message}",
+        "CouldNotReadFile": "could not read that file — see the console.",
+        "FailedToAdd": "failed to add generated content — {message}",
+        "FilePickerUnavailable": "FilePicker is unavailable in this Foundry version.",
+        "IdCollisionAborted": "generated content collided with existing ids — aborted, no changes made.",
+        "InSectorClause": " in sector \"{name}\"",
+        "LoadedNamesFromFile": "loaded names from file."
+      },
+      "Preview": "Preview",
+      "Reroll": "Re-roll",
+      "UseThisListLabel": "Use this list instead of the built-in generator",
+      "Validate": {
+        "GenerationFailed": "Generation failed: {message}",
+        "IdCollision": "Aborted: {count} generated id(s) collide with the existing galaxy. Re-roll the seed and try again.",
+        "MustBeValidNumber": "{label} must be a valid number.",
+        "SeedMustNotBeEmpty": "Seed must not be empty.",
+        "SystemCountRange": "System count must be a whole number between 1 and 200.",
+        "WidthHeightPositive": "Width and height must be greater than zero."
+      }
+    },
+    "Import": {
+      "CouldNotReadFile": "Could not read file: {message}",
+      "InvalidJson": "Invalid JSON: {message}",
+      "MergeGalaxyButton": "Merge Galaxy",
+      "MergeOptionsLegend": "Merge options",
+      "MergePreviewFailed": "Merge preview failed: {message}",
+      "MergeSummary": "Merge folds the export into the current galaxy; atlas-side authoring is preserved.",
+      "Mode": {
+        "Merge": "Merge into current galaxy",
+        "Replace": "Replace current galaxy"
+      },
+      "NoManifestFallback": "No import manifest found on the current galaxy (pre-v4 store) — entity origin is classified by campaignId instead, which is less reliable. Prune with care.",
+      "Notify": {
+        "ImportFailed": "import failed — {message}",
+        "Imported": "imported {systems} system(s), {connections} connection(s), {sectors} sector(s), {markers} marker(s){drawings}.",
+        "MergeComplete": "merge complete — {matched} matched, {added} added, {kept} kept, {pruned} pruned. A backup of the previous galaxy was downloaded.",
+        "RebuildFailed": "{failed} system rebuild(s) failed after merge — see console.",
+        "RebuildingProgress": "rebuilding updated systems… {done}/{total}"
+      },
+      "Option": {
+        "GridAndCompass": "Grid & compass",
+        "PruneManagerDeleted": "Prune entities deleted in the manager",
+        "UpdateDescriptions": "Update descriptions",
+        "UpdateNames": "Update names",
+        "UpdatePositions": "Update positions",
+        "UpdateVisibility": "Update visibility"
+      },
+      "OrPasteJsonBelow": "…or paste JSON below:",
+      "OverlayTooltip": "Take the manager's grid & compass overlay settings (replaces the atlas GM's own overlay config).",
+      "PastePreviewHint": "Paste or upload JSON to see a preview.",
+      "PositionsTooltip": "The Manager's layout wins — with the shared orbit clock a stale layout desyncs the orrery. Untick to keep this atlas's drags for one import.",
+      "PruneTooltip": "When checked, manager-origin entities missing from this export are removed. Origin is decided by the import manifest recorded at each import (an id seen in a previous import is manager-origin); stores that predate the manifest fall back to campaignId classification, which is less reliable. Left unchecked (the default), missing entities are kept and listed in the report — a partial or hand-assembled export is indistinguishable from a manager-side deletion. Note an asymmetry independent of these toggles: body size always updates from the manager (an atlas-side size edit can be overwritten), while the atlas typeKey is never touched by a merge.",
+      "ReadyToImport": "Ready to import: {systems} system(s), {connections} connection(s), {sectors} sector(s), {markers} marker(s){drawings}.",
+      "RebuildCheckboxLabel": "Rebuild scenes & dossiers for updated systems ({updated} updated)",
+      "ReplaceGalaxyButton": "Replace Galaxy",
+      "ReplaceWarning": "Importing REPLACES the current galaxy entirely. This cannot be undone — export the current galaxy first if you want a backup.",
+      "SurfaceCityMirrorCaption": "This tier is manager-owned — a mirror of the Campaign Manager's surface/city data (PLAN-SURFACE-PARITY.md §1.3), not a merge, so there's no atlas-authored side to keep or prune.",
+      "SurfaceCityMirrorHeading": "Surface & city mirror",
+      "Table": {
+        "Added": "Added",
+        "DroppedIntegrity": "Dropped (integrity)",
+        "KeptAbsent": "Kept (absent)",
+        "KeptAtlas": "Kept (atlas)",
+        "KeptMissing": "Kept (missing)",
+        "Matched": "Matched",
+        "Pruned": "Pruned",
+        "Removed": "Removed",
+        "Unchanged": "Unchanged",
+        "Updated": "Updated"
+      },
+      "UploadJsonFile": "Upload a .json file"
+    },
+    "Keybind": {
+      "OpenAtlas": {
+        "Hint": "Opens the galaxy atlas window.",
+        "Name": "Open Campaign Atlas"
+      },
+      "RevealAtlas": {
+        "Hint": "GM only — opens the atlas window on every connected player client.",
+        "Name": "Reveal Atlas to Players"
+      },
+      "SyncContent": {
+        "Name": "Sync from Campaign Manager",
+        "Hint": "Pull operations, missions, briefings, and NPCs from the Campaign Manager into Foundry as Journal Entries and Actors. Re-running updates existing documents instead of duplicating."
+      },
+      "TableMode": {
+        "Hint": "Maximises the open atlas window and hides its navigation bar, for the screen the table watches. Press again (or Esc) to restore it.",
+        "Name": "Toggle atlas table mode"
+      }
+    },
+    "Marker": {
+      "Notify": {
+        "WriteBackUnavailable": "Campaign Atlas: marker changes are not reaching the Campaign Manager ({reason}). They stay in Foundry; edits to Manager markers will be overwritten by the next import, and new markers can be sent later from the Import dialog.",
+        "GoneInManager": "Campaign Atlas: this marker was deleted in the Campaign Manager, so your edit was not saved there. An import with pruning on removes it here too.",
+        "DeleteUnavailable": "Campaign Atlas: this marker belongs to the Campaign Manager, which cannot be reached ({reason}). Nothing was deleted — a marker deleted only in Foundry would come back at the next import."
+      },
+      "Delete": {
+        "InManager": "It is deleted in the Campaign Manager too.",
+        "OneMission": "This mission loses its location:",
+        "Missions": "These {n} missions lose their location:"
+      },
+      "Send": {
+        "Unnamed": "Unnamed marker",
+        "Confirm": "Send {n} Atlas-only marker(s) to the Campaign Manager? Each becomes a Campaign Manager marker: it appears on the web maps and can be a mission location.",
+        "Title": "Send markers to the Campaign Manager",
+        "NotConfigured": "Campaign Atlas: no Campaign Manager is configured.",
+        "Unavailable": "Campaign Atlas: cannot send markers right now ({reason}).",
+        "Nothing": "Campaign Atlas: every marker is already in the Campaign Manager.",
+        "Done": "Campaign Atlas: sent {n} marker(s) to the Campaign Manager.",
+        "Partial": "Campaign Atlas: sent {n} marker(s); these could not be sent and stay Atlas-only: {names}.",
+        "Error": "Campaign Atlas: sending markers failed — see the console.",
+        "Note": "Markers made in Foundry stay there until they are sent. Once in the Campaign Manager they show on the web maps and can be mission locations.",
+        "Button": "Send {n} Atlas-only marker(s) to the Campaign Manager…"
+      }
+    },
+    "MissionLinks": {
+      "Notify": {
+        "JournalGone": "That mission journal is no longer in this world."
+      }
+    },
+    "Nav": {
+      "Back": "Back",
+      "CrumbMissing": "This entity is no longer available.",
+      "FallbackSystemName": "System",
+      "FollowToggle": {
+        "Following": "Following",
+        "Off": "Follow me",
+        "Presenting": "Presenting",
+        "Title": "Click through: Follow me (players see every view you open) → Presenting (they also follow your pan and zoom) → off."
+      },
+      "FollowingGm": "Following GM",
+      "Forward": "Forward",
+      "PresentingSuffix": "(presenting)",
+      "ShowPlayers": {
+        "Label": "Show players",
+        "Title": "Show this view to every player — opens their atlas window and points it here."
+      },
+      "TableMode": {
+        "Exit": "Exit",
+        "ExitTitle": "Leave table mode (Esc) — restores the window and the navigation bar.",
+        "Label": "Table mode",
+        "Title": "Table mode — maximise the window and hide this bar, for the screen the table watches. Esc exits."
+      },
+      "ZoomSpeed": {
+        "Label": "Zoom speed",
+        "Title": "Deep-zoom speed — how fast the window zooms between views. Off switches instantly; your operating system’s reduced-motion setting always wins."
+      }
+    },
+    "Notify": {
+      "AddedNamed": "added {name}.",
+      "BodyArtNoCanvas": "this client cannot rasterise SVG",
+      "BodyArtNoDom": "no document to render in",
+      "BodyArtNoUpload": "this Foundry host refuses file uploads",
+      "BodyArtUnavailable": "Campaign Atlas: could not render Campaign Manager body art ({reason}) — using the catalog art instead.",
+      "AlreadyConnected": "Those systems are already connected.",
+      "AtlasWindowUnavailable": "Campaign Atlas: the atlas window is unavailable.",
+      "BodyEditFailed": "the body edit failed — see the console.",
+      "CampaignAtlasPrefix": "Campaign Atlas: {message}",
+      "CouldNotRebuildPlanetScene": "could not rebuild the planet scene.",
+      "CouldNotRebuildSystemScene": "could not rebuild the system scene.",
+      "CredentialsRejectedEdit": "Campaign Atlas: the Campaign Manager rejected your credentials (HTTP {status}) — your edit was not saved. Update the Campaign Manager API key in the Campaign Atlas module settings.",
+      "EditNotSaved": "Campaign Atlas: your edit was not saved — {message}",
+      "EditingUnavailable": "editing is unavailable",
+      "EnterPositiveOrbitRadius": "enter a positive orbit radius.",
+      "EnterValidXY": "enter valid X/Y coordinates.",
+      "FilePickerUnavailable": "FilePicker is unavailable in this Foundry version.",
+      "GeneratingScene": "Generating scene for {name}…",
+      "ManagerNotConnected": "Campaign Manager not connected",
+      "NoBodyToOrbit": "this system has no body to orbit.",
+      "NoPlanetSelected": "No planet selected — tip: just double-click a planet or moon on the map to open its scene.",
+      "NotChartedYet": "{name} has not been charted yet.",
+      "NotViewingPlanetScene": "Not viewing a planet scene.",
+      "NotViewingStagedScene": "Not viewing a staged map scene.",
+      "NotViewingSystemScene": "Not viewing a system scene.",
+      "OnlyGmCanAction": "Only the GM can {action}.",
+      "OnlyGmCanAdjustOrbits": "Only the GM can adjust orbits.",
+      "OnlyGmCanChangeOrbits": "Only the GM can change orbits.",
+      "OnlyGmCanEditManagerMaps": "Only the GM can edit Campaign Manager maps",
+      "OnlyGmCanGenerate": "Only the GM can generate Campaign Atlas galaxy content.",
+      "OnlyGmCanImport": "Only the GM can import Campaign Atlas galaxy data.",
+      "OnlyGmCanManageSites": "Only the GM can manage sites.",
+      "OnlyGmCanPlacePois": "Only the GM can place POIs.",
+      "OnlyGmCanReveal": "Only the GM can reveal the atlas to players.",
+      "OnlyGmCanShow": "Only the GM can show a view to players.",
+      "OnlyGmCanStage": "Only the GM can stage a scene.",
+      "OnlyGmCanSync": "Only the GM can sync from the Campaign Manager.",
+      "OnlySurfaceCityStaged": "Campaign Atlas: only surface and city maps are staged as scenes.",
+      "PlanetSceneRegenerated": "Campaign Atlas: planet scene regenerated.",
+      "PoiEditFailed": "the POI edit failed — see the console.",
+      "RemovedNamed": "removed {name}.",
+      "ResyncFailed": "Failed to resync the system scene; use Regenerate System Scene.",
+      "SceneHiddenFromPlayers": "System scene updated — bodies are now hidden from players.",
+      "SceneReStaged": "Campaign Atlas: scene re-staged.",
+      "SceneVisibleToPlayers": "System scene updated — bodies are now visible to players.",
+      "ShapeMapNotMirrored": "This shape’s map is not mirrored — reimport before editing it.",
+      "SiteEditFailed": "the site edit failed — see the console.",
+      "StaleAskGm": "Campaign Atlas: {notice} — ask your GM to refresh this scene.",
+      "StaleChip": "Campaign Atlas: {notice}",
+      "SystemGone": "Campaign Atlas: that system no longer exists.",
+      "SystemPreviewUnavailable": "Campaign Atlas: the System Preview is unavailable.",
+      "SystemSceneRegenerated": "Campaign Atlas: system scene regenerated.",
+      "TraitEditFailed": "the trait edit failed — see the console.",
+      "UnbakedNoticeFull": "Campaign Atlas: {notice}.",
+      "WorldGone": "Campaign Atlas: that world no longer exists."
+    },
+    "OpenInAtlas": {
+      "Notify": {
+        "MissionNotPlaced": "this mission is not placed anywhere the atlas knows."
+      },
+      "OpenInAtlas": "Open in Atlas",
+      "OpenInAtlasTooltip": "Open in Atlas — {status}",
+      "ShowPlayersInAtlas": "Show players in Atlas"
+    },
+    "Orbit": {
+      "AddABody": "Add a body",
+      "AddBelt": "Add belt",
+      "AddCompanionStar": "Add companion star",
+      "AddMoon": "Add moon",
+      "AddMoonTo": "Add moon to {name}",
+      "AddPlanet": "Add planet",
+      "Appearance": "Appearance",
+      "Apply": "Apply",
+      "ApplyRadiusNote": {
+        "Belt": "Applying a radius regenerates the scene and re-scatters the field on the new ring. Dragging any rock on the canvas does the same thing.",
+        "Default": "Applying a radius regenerates the scene (paths, moons and the belt ring move with it)."
+      },
+      "AsteroidBeltTitle": "Asteroid belt",
+      "AutoValue": "Auto — {value}",
+      "BeltDensityRow": "Belt · {density}",
+      "BeltsNotOnScene": "Belts not on the scene (regenerate to project them)",
+      "BrowseForImage": "Browse for an image",
+      "CatalogArt": "catalog art",
+      "ChoosePortraitTitle": "Choose a dossier portrait for {name} (right-click to clear)",
+      "ClearImageOverride": "Clear the override (back to catalog art)",
+      "CompanionStarNote": "Companions orbit the primary on staggered rings (350 / 600). Up to three stars total; companions can be removed like any body.",
+      "CompanionStarTitle": "Companion star",
+      "Density": {
+        "Dense": "Dense",
+        "Normal": "Normal",
+        "Sparse": "Sparse"
+      },
+      "Description": "Description",
+      "Direction": "Direction",
+      "Edited": "edited",
+      "Empty": {
+        "NoOrbitingBodies": "No orbiting bodies yet — add one below.",
+        "OpenSystemScene": "Open a system scene to use the Orbit Tool.",
+        "SelectABody": "Select a body to adjust its orbit.",
+        "SystemGoneFromStore": "This scene projects a system that is no longer in the galaxy store."
+      },
+      "Forward": "Forward",
+      "Header": {
+        "BeltDrift": "{role} · drifts ~{sec}s/orbit",
+        "Period": "{role} · period {sec}s"
+      },
+      "ImageOverride": "Image override",
+      "NameOptional": "Name (optional)",
+      "NewPlanetsNote": "New planets take the next orbit out; with more than four planets the orbits tighten to stay on the scene.",
+      "Notify": {
+        "BeltRingMoved": "{name}: belt ring moved to {radius}px.",
+        "CouldNotApplyToScene": "could not apply the orbit change to the scene.",
+        "MoonOrbitFixedOnPlanetScene": "Moon orbits on planet scenes are fixed — adjust on the system scene.",
+        "SetAtDroppedPosition": "{name}: orbit set to {radius}px at the dropped position.",
+        "WriteBackUnavailable": "Campaign Atlas: orbit edits are not reaching the Campaign Manager ({reason}). They will be overwritten by the next import with Update positions on."
+      },
+      "PlanetTypeArtFamily": "Planet type (art family)",
+      "RadiusLabel": {
+        "Belt": "Belt ring radius ({min}–{max} px)",
+        "Default": "Orbit radius ({min}–{max} px)",
+        "Moon": "Orbit radius around parent ({min}–{max} px)"
+      },
+      "Random": "Random",
+      "RemoveNamed": "Remove {name}",
+      "RemoveRole": "Remove {role}",
+      "ResetToGenerated": "Reset to generated defaults",
+      "Reverse": "Reverse",
+      "Role": {
+        "CompanionStar": "Companion Star",
+        "OrbitPath": "Orbit Path",
+        "PointOfInterest": "Point of Interest",
+        "SurfaceSite": "Surface Site"
+      },
+      "SelectAPlanetToAddMoon": "Select a planet above to add a moon.",
+      "SizeTileSizeOnRebuild": "Size (tile size on rebuild)",
+      "SpeedMultiplier": "Speed multiplier",
+      "StarTypeArtFamily": "Star type (art family)",
+      "Traits": "Traits",
+      "TraitsNote": "Traits are derived from the world's type, size and thermal band. \"Auto\" follows those; a pinned value never changes.",
+      "TrinaryCapReached": "Trinary cap reached"
+    },
+    "Outcome": {
+      "HeaderButton": "Record outcome",
+      "GMOnly": "Only the GM can record mission outcomes in the Campaign Manager.",
+      "NoMission": "IA-Companion: no Campaign Manager mission id — sync this journal from the Manager first.",
+      "BadOutcome": "IA-Companion: \"{outcome}\" is not an outcome. Use ACTIVE (started), SUCCESS (won) or FAILURE (lost).",
+      "NoteTooLong": "IA-Companion: the outcome note is limited to {max} characters.",
+      "ReadFailed": "IA-Companion could not read the mission from the Campaign Manager, so nothing was sent: {error}",
+      "SendFailed": "IA-Companion could not reach the Campaign Manager to record the outcome: {error}",
+      "Recorded": "Recorded: {title} → {status} (was {previous}).",
+      "Already": "{title} is already {status} in the Campaign Manager — nothing changed.",
+      "Conflict": {
+        "expected_mismatch": "Not recorded: {title} is {current} in the Campaign Manager, not {expected} as shown here. The Manager wins — reopen the dialog to see the current status.",
+        "terminal": "Not recorded: {title} is {current} in the Campaign Manager, which is final.",
+        "illegal": "Not recorded: the Campaign Manager does not allow {current} → {outcome} for {title}.",
+        "unknown": "Not recorded: the Campaign Manager refused the outcome for {title} (currently {current})."
+      },
+      "RateLimited": "IA-Companion: the Campaign Manager is rate-limiting outcome writes — wait a minute and try again.",
+      "HttpFailed": "IA-Companion: recording the outcome failed (HTTP {status}): {error}",
+      "Rejected": "Not recorded: the Campaign Manager rejected the outcome for {title}: {message}",
+      "FlagFailed": "The outcome reached the Campaign Manager, but the journal could not be stamped: {error}",
+      "ListFailed": "IA-Companion could not load the campaign's missions from the Campaign Manager: {error}",
+      "NoMissions": "IA-Companion: this campaign has no missions in the Campaign Manager.",
+      "NoDialog": "IA-Companion: no dialog API is available in this Foundry version.",
+      "Dialog": {
+        "Title": "Record outcome — {title}",
+        "Loading": "Manager currently: loading…",
+        "Current": "Manager currently: {status}",
+        "NoStatus": "Manager currently: unknown — nothing can be sent.",
+        "LoadFailed": "Could not read the mission from the Campaign Manager: {error}. Nothing can be sent until it can be read.",
+        "Legend": "What happened at the table?",
+        "Active": "Started",
+        "Success": "Won",
+        "Failure": "Lost",
+        "Note": "Note (optional, kept in the Manager's audit trail)",
+        "NotePlaceholder": "e.g. rebels held the terminal until round 6",
+        "Hint": "The mission status changes, plus the hero records above. If the Manager's status changed since this dialog opened, nothing is written. Heat and consequences still come from Resolve in the Manager.",
+        "Confirm": "Record",
+        "Cancel": "Cancel"
+      },
+      "Picker": {
+        "Title": "Record mission outcome",
+        "Hint": "Pick a mission. Statuses are live from the Campaign Manager.",
+        "Next": "Next",
+        "BurnedHint": "Burned missions are final and cannot take an outcome."
+      },
+      "Heroes": {
+        "Title": "Heroes",
+        "Col": {
+          "Hero": "Hero / role",
+          "Role": "Role",
+          "Kills": "Kills",
+          "Wounded": "Wounded",
+          "Defeated": "Defeated",
+          "Xp": "XP",
+          "Fate": "Fate"
+        },
+        "RolePlaceholder": "role",
+        "Fate": {
+          "None": "—",
+          "Fallen": "Fallen",
+          "Mia": "MIA"
+        },
+        "Add": "Add hero…",
+        "AddNone": "No other campaign characters to add",
+        "Remove": "Remove — don't send this hero",
+        "MergeHint": "Only the heroes listed are sent. Removing a row keeps that hero's existing record in the Manager; a blank cell keeps the value already there.",
+        "Hint": {
+          "Wounded": "wounded at mission end",
+          "XpTotal": "XP total: {n}"
+        },
+        "Loading": "Loading heroes…",
+        "Empty": "No heroes recorded for this mission yet.",
+        "LoadFailed": "Could not load this mission's heroes from the Campaign Manager ({error}). You can still record the outcome, and add heroes below.",
+        "CharactersFailed": "Could not load the campaign's characters from the Campaign Manager ({error}), so no hero can be added. You can still record the outcome.",
+        "Invalid": {
+          "Count": "{field} must be a whole number from 0 to {max}",
+          "Role": "role is limited to {max} characters"
+        },
+        "Applied": "{count} hero record(s) updated in the Campaign Manager.",
+        "AlreadyWithHeroes": "{title} is already {status} in the Campaign Manager — status unchanged, {count} hero record(s) updated.",
+        "Memorials": "{count} roster record(s) marked Fallen/MIA — write the memorial in the Manager."
+      }
+    },
+    "Panel": {
+      "Action": {
+        "ClearDistrictDetail": "Clear detail in this district ({count})",
+        "CreateCityMap": {
+          "Label": "Create city map",
+          "Title": "Create a city map for this settlement"
+        },
+        "DeleteDistrict": "Delete district",
+        "DeletePoi": "Delete point of interest",
+        "DeleteRegion": "Delete region",
+        "DeleteRiver": "Delete river",
+        "DeleteRoute": "Delete route",
+        "DeleteSettlement": "Delete settlement",
+        "EditPath": "Edit path",
+        "EditShape": "Edit shape",
+        "OpenCityView": "Open city view",
+        "ResetLabelPosition": "Reset label position"
+      },
+      "Close": "Close",
+      "DeleteDrawing": "Delete drawing",
+      "DeleteEntity": "Delete {what}",
+      "Dossier": {
+        "Label": "Dossier",
+        "Title": "Build/refresh and open this system's dossier journal"
+      },
+      "DrawingTitle": {
+        "CalloutBox": "Callout Box",
+        "CoreGlow": "Core Glow",
+        "RegionRing": "Region Ring",
+        "Route": "Route",
+        "TextLabel": "Text Label"
+      },
+      "Fact": {
+        "CityMap": "City map",
+        "From": "From",
+        "FromRegion": "(from region)",
+        "Points": "Points",
+        "PointsOfInterest": "Points of interest",
+        "Settlements": "Settlements",
+        "Terrain": "Terrain",
+        "To": "To",
+        "Type": "Type",
+        "Vertices": "Vertices",
+        "ZoneType": "Zone type",
+        "Size": "Size",
+        "LandingPads": "Landing pads",
+        "PadLooks": "Pad looks"
+      },
+      "Field": {
+        "Accessible": "Accessible",
+        "Colour": "Colour",
+        "Dash": "Dash",
+        "Default": "Default",
+        "Description": "Description",
+        "District": "District",
+        "Faction": "Faction",
+        "FontSize": "Font size",
+        "HeatLevel": "Heat level",
+        "Icon": "Icon",
+        "Label": "Label",
+        "LabelAngle": "Label angle",
+        "LetterSpacing": "Letter spacing",
+        "Name": "Name",
+        "Notes": "Notes",
+        "Opacity": "Opacity",
+        "PlayersSee": {
+          "Contact": "Contact",
+          "Hidden": "Hidden",
+          "Known": "Known",
+          "Label": "Players see"
+        },
+        "Radius": "Radius",
+        "RadiusX": "Radius X",
+        "RadiusY": "Radius Y",
+        "Region": "Region",
+        "Resources": "Resources",
+        "Rotation": "Rotation",
+        "Sector": "Sector",
+        "SectorNone": "— none —",
+        "SmoothCurve": "Smooth curve",
+        "StrokeWidth": "Stroke width",
+        "Text": "Text",
+        "Title": "Title",
+        "TravelTimeHours": "Travel time (hours)",
+        "VisibleToPlayers": "Visible to players",
+        "Vessel": "Vessel kind",
+        "VesselNone": "None — a plain marker",
+        "VesselKind": {
+          "ship": "Ship",
+          "station": "Station",
+          "outpost": "Outpost",
+          "derelict": "Derelict"
+        }
+      },
+      "Meta": {
+        "NinetyIsTop": "90 = top of the ring",
+        "PointCount": "{n} points",
+        "VertexCount": "{n} vertices"
+      },
+      "MissionsHere": "Missions here",
+      "OpenScene": {
+        "Label": "Open scene",
+        "Title": "Generate the system scene if needed, then view it"
+      },
+      "OpenSystemView": {
+        "Label": "Open system view",
+        "Title": "Open this system inside the atlas window"
+      },
+      "Subtitle": {
+        "District": "District",
+        "Poi": "Point of interest",
+        "Region": "Region",
+        "River": "River",
+        "Route": "Route",
+        "Detail": "Painted item"
+      },
+      "Title": {
+        "Connection": "Connection",
+        "Marker": "Marker",
+        "Sector": "Sector",
+        "System": "System"
+      },
+      "Unnamed": {
+        "District": "Unnamed district",
+        "Poi": "Unnamed point of interest",
+        "Region": "Unnamed region",
+        "River": "Unnamed river",
+        "Settlement": "Unnamed settlement"
+      },
+      "Value": {
+        "No": "no",
+        "NotImported": "not imported",
+        "Unknown": "unknown",
+        "Yes": "yes",
+        "PadOne": "1 pad",
+        "Pads": "{count} pads",
+        "PadsSmall": "{count} small",
+        "PadsMedium": "{count} medium",
+        "BayOne": "1 bay",
+        "Bays": "{count} bays"
+      },
+      "OpenMarkerVessel": {
+        "Label": "Open vessel →",
+        "Title": "Fly into this vessel; its class, look and interior are set there"
+      },
+      "Marker": {
+        "ContactNote": "Players see an unnamed blip: “{name}”."
+      },
+      "Detail": {
+        "UploadFailed": "Upload failed",
+        "Type": "Type",
+        "Paint": "Paint",
+        "Boat": "Boat",
+        "Size": "Size",
+        "Yours": "Placed or changed by you — always shown, on top of the town.",
+        "Generated": "Generated. Any change makes it yours, and it is then always shown on top.",
+        "Artwork": "Artwork",
+        "Uploading": "Uploading…",
+        "Upload": "Upload",
+        "BuiltIn": "Use built-in picture",
+        "ArtworkFile": "Artwork file",
+        "Library": "Campaign images",
+        "LibraryEmpty": "No images in the media library yet.",
+        "Square": "Square to the map",
+        "Remove": "Remove",
+        "Help": "Drag to move · corners to resize · the knob to turn (Shift snaps) · Delete removes · Esc lets go."
+      }
+    },
+    "Party": {
+      "HiddenNote": {
+        "Here": "This system is hidden from players, so they see no party marker until you reveal it.",
+        "Move": "This system is hidden from players: if the party moves here, they will see no marker until you reveal it."
+      },
+      "Here": "The party is here.",
+      "MarkerLabel": "Party",
+      "Notify": {
+        "Conflict": "The party was not moved: it moved somewhere else in the meantime.",
+        "Failed": "The party was not moved: the Campaign Manager could not be reached.",
+        "NoRoute": "The party was not moved: this Campaign Manager does not support party travel yet. Update the Manager.",
+        "UnknownSystem": "The party was not moved: the Campaign Manager has no record of this system.",
+        "UnknownMarker": "The party was not moved: the Campaign Manager has no record of this marker. Sync it first.",
+        "NotAVessel": "The party can dock only with a vessel marker it is at."
+      },
+      "SetHere": {
+        "Label": "Party is here",
+        "Title": "Move the party marker here on every map, along the lane if there is one"
+      },
+      "TakeOff": {
+        "Label": "Take party off the map",
+        "Title": "Remove the party marker from every map"
+      },
+      "ContactNote": {
+        "Here": "Players see this system as an unresolved contact: they see the party marker on the contact, with no name.",
+        "Move": "Players see this system as an unresolved contact: if the party moves here, they will see the marker on the contact, with no name."
+      },
+      "MarkerLabelDocked": "Party, docked with {name}",
+      "AVessel": "a vessel",
+      "ThisVessel": "this vessel",
+      "HereDocked": "The party is here, docked with {name}.",
+      "SetHereMarker": {
+        "Title": "Move the party marker here on every map — it flies straight here, no lane needed"
+      },
+      "Undock": {
+        "Title": "Undock: the party stays here, alongside",
+        "Label": "Undock"
+      },
+      "Dock": {
+        "Title": "Dock the party's ship with this vessel. Players still see inside only if Players see inside is on.",
+        "Label": "Dock with {name}"
+      },
+      "MarkerHiddenNote": {
+        "Here": "This marker is hidden from players, so they see no party marker until you reveal it.",
+        "Move": "This marker is hidden from players: if the party moves here, they will see no marker until you reveal it."
+      },
+      "MarkerContactNote": "Players see the party beside “{name}”, and never that it is docked."
+    },
+    "Poi": {
+      "AddPoi": "Add POI",
+      "AttachToNearestBody": "Attach to nearest body",
+      "AutoPlaceholder": "auto",
+      "DetachParkHere": "Detach (park here)",
+      "DragToRepositionNote": "Drag the tile on the canvas to reposition (fixed) or resize its orbit (orbiting).",
+      "Empty": {
+        "NoPois": "No POIs in this system yet.",
+        "OpenSystemScene": "Open a system scene to place POIs."
+      },
+      "Fixed": "Fixed",
+      "FixedPosition": "Fixed position",
+      "FixedSummary": "fixed",
+      "HiddenClickToReveal": "Hidden — click to reveal",
+      "Kind": "Kind",
+      "NearestBody": "the nearest body",
+      "NoStarOrPlanetYet": "This system has no star or planet to orbit yet.",
+      "Notify": {
+        "AlreadyInOrbit": "{name} is already in orbit.",
+        "BuildSceneBeforeAttach": "build the system scene before attaching a POI.",
+        "MovedTo": "{name} moved to ({x}, {y}).",
+        "NoLongerInOrbit": "{name} is no longer in orbit.",
+        "NoStarOrPlanetToOrbit": "{name}: this system has no star or planet to orbit.",
+        "NotInOrbit": "{name} is not in orbit.",
+        "NowOrbits": "{name} now orbits {anchor} at {radius}px.",
+        "SetAtDroppedPosition": "{name}: orbit set to {radius}px at the dropped position.",
+        "WriteBackUnavailable": "Campaign Atlas: ship and station changes are not reaching the Campaign Manager ({reason}). They stay in Foundry; edits to Manager ships will be overwritten by the next import.",
+        "GoneInManager": "Campaign Atlas: this ship was deleted in the Campaign Manager, so your edit was not saved there. An import with pruning on removes it here too.",
+        "DeleteUnavailable": "Campaign Atlas: this ship belongs to the Campaign Manager, which cannot be reached ({reason}). Nothing was deleted — a ship deleted only in Foundry would come back at the next import.",
+        "MoveUnavailable": "Campaign Atlas: the Campaign Manager cannot be reached ({reason}), so nothing was moved.",
+        "MovesWithParty": "Campaign Atlas: that is the party's ship — it moves with the party. Move the party instead.",
+        "MovedElsewhere": "Campaign Atlas: this ship has already moved in the Campaign Manager. Import to catch up, then try again.",
+        "MoveGone": "Campaign Atlas: this ship or that system is gone from the Campaign Manager. Nothing was moved.",
+        "Moved": "moved {name} to {system}.",
+        "MovedByManager": "{name} moved to {system}."
+      },
+      "OrbitABody": "Orbit a body…",
+      "OrbitBody": "Orbit body",
+      "OrbitSummary": "orbit · r {r}",
+      "OrbitTheStar": "Orbit the star",
+      "Orbiting": "Orbiting",
+      "Placement": "Placement",
+      "RemoveConfirmMessage": "Remove {name}?",
+      "RemoveConfirmWindowTitle": "Remove POI",
+      "SceneCentre": "Scene centre",
+      "SpeedMultiplierRange": "Speed multiplier (0.1–10×)",
+      "VisibleClickToHide": "Visible to players — click to hide",
+      "XY": "X / Y",
+      "RemoveInManager": "It is deleted in the Campaign Manager too.",
+      "Send": {
+        "Unnamed": "Unnamed",
+        "Confirm": "Send {n} Atlas-only ship(s) and station(s) to the Campaign Manager? Each becomes a Campaign Manager ship: it shows on the web maps, and its system scene is rebuilt.",
+        "SkipSystem": "These stay in Foundry — their system is not in the Campaign Manager:",
+        "SkipBody": "These stay in Foundry — they orbit a body the Campaign Manager does not have:",
+        "Title": "Send ships and stations to the Campaign Manager",
+        "Unavailable": "Campaign Atlas: cannot send ships and stations right now ({reason}).",
+        "Nothing": "Campaign Atlas: every ship and station is already in the Campaign Manager.",
+        "NothingSendable": "Campaign Atlas: nothing can be sent — {n} ship(s) or station(s) are in systems or orbits the Campaign Manager does not have.",
+        "Done": "Campaign Atlas: sent {n} ship(s) and station(s) to the Campaign Manager; rebuilt {scenes} system scene(s).",
+        "Partial": "Campaign Atlas: sent {n} ship(s) and station(s); these could not be sent and stay Atlas-only: {names}.",
+        "RebuildFailed": "Campaign Atlas: rebuild these system scenes (Regenerate) — their ship tiles still carry the old ids: {names}.",
+        "Error": "Campaign Atlas: sending ships and stations failed — see the console.",
+        "Note": "Ships and stations made in Foundry before 0.3.16 stay there until they are sent. Once in the Campaign Manager they show on the web maps; their system scenes are rebuilt.",
+        "Button": "Send {n} Atlas-only ship(s) and station(s) to the Campaign Manager…"
+      },
+      "Move": {
+        "Pick": "— Pick a system —",
+        "Button": "Move",
+        "Confirm": "Move {name} to {system}? It moves in the Campaign Manager too, leaves this scene and arrives at the centre of {system}.",
+        "Title": "Move to another system",
+        "Label": "Move to system"
+      },
+      "Visibility": {
+        "Label": "Players",
+        "Hidden": "Hidden — players see nothing",
+        "Contact": "Contact — players see an unnamed blip",
+        "Known": "Known — players see it and its name",
+        "ContactShort": "contact"
+      }
+    },
+    "SceneControl": {
+      "Generate": "Generate Galaxy Content",
+      "Import": "Import Campaign Manager Galaxy",
+      "Open": "Open Campaign Atlas",
+      "Reveal": "Reveal Atlas to Players",
+      "Sync": "Sync Galaxy from Manager",
+      "SyncContent": "Sync from Campaign Manager",
+      "Outcome": "Record mission outcome"
+    },
+    "SceneTool": {
+      "BackToGalaxy": "Back to Galaxy Atlas",
+      "BackToSystem": "Back to {name}",
+      "OpenMapInAtlas": "Open this map in the Atlas",
+      "OpenPlanetScene": "Open Planet Scene",
+      "OpenSystemDossier": "Open System Dossier",
+      "OpenWorldDossier": "Open World Dossier",
+      "OrbitTool": "Orbit Tool",
+      "PoiPlacer": "POI Placer",
+      "ReStageMap": "Re-stage this map",
+      "RegeneratePlanetScene": "Regenerate Planet Scene",
+      "RegenerateSystemScene": "Regenerate System Scene",
+      "SiteManager": "Site Manager",
+      "SystemPreview": "System Preview"
+    },
+    "Settings": {
+      "ActorTypeAuto": "Auto-detect from the game system",
+      "AmbientRotation": {
+        "Hint": "Slowly turn rendered planets and moons in the atlas window’s system view. Off by default: unlike orbital motion, a turning sphere has to be pre-rendered frame by frame (about 2.4 MB of images per body, for the twelve largest bodies in a system), so this trades memory for a small amount of extra life. Turning it off frees that memory immediately. Per-player, and it obeys the pause switches above.",
+        "Name": "Ambient planet rotation (atlas window)"
+      },
+      "AnimationPaused": {
+        "Hint": "Freezes every system scene’s orbiting bodies in place for all clients.",
+        "Name": "Pause orbital animation"
+      },
+      "AnimationSpeed": {
+        "Hint": "Multiplier applied to every orbit’s period (0.1 = slow, 10 = fast).",
+        "Name": "Orbital animation speed"
+      },
+      "AssetBasePath": {
+        "Hint": "Folder containing the celestial body artwork (planets, stars, moons), relative to the Foundry Data folder. Keep it outside modules/campaign-atlas: updating the module replaces that folder. No trailing slash.",
+        "Name": "Body art base path"
+      },
+      "BattleMapGrid": {
+        "Foundry": "Foundry's grid",
+        "Hint": "Which grid lines a generated battle map shows. Painted: the faint tactical grid is painted into the map image (the original look). Foundry's grid: the image has no lines and Foundry draws its own, so you can change their colour and opacity per scene in Scene Configuration. The squares, walls and tokens line up the same either way. Applies when a battle map is built or regenerated; a regenerated map switches to the chosen grid once, then keeps your own opacity.",
+        "Name": "Battle map grid",
+        "Painted": "Painted (original look)"
+      },
+      "HeroActorType": {
+        "Hint": "The Actor type content sync creates the Campaign Manager’s characters (heroes) as. Detected from the active game system the first time a hero is synced; change it here if the guess is wrong. Only affects Actors created after the change — an existing Actor keeps its type.",
+        "Name": "Actor type for synced heroes"
+      },
+      "ManagerCampaignId": {
+        "Hint": "The id of the manager campaign this world mirrors. Used for both the socket room and the import fetch.",
+        "Name": "Campaign Manager campaign id"
+      },
+      "ManagerEnabled": {
+        "Hint": "Watch the Campaign Manager for galaxy map changes and light a badge when it has updates. Nothing is ever imported automatically — you still review and commit the merge. (Missions, journals and actors sync separately via IA-Companion.)",
+        "Name": "Sync Galaxy from Manager"
+      },
+      "ManagerToken": {
+        "Hint": "Paste a cmk_… API key minted in the Campaign Manager Dashboard (expand the campaign card, then Foundry API Keys → New key). It carries full GM rights on that campaign — treat it like your GM password — though it cannot manage other API keys. Stored on this client only — never synced to player clients. It does not expire unless you set an expiry, and revoking it in the manager cuts this bridge immediately, even on an already-open connection. A legacy GM login token still works here too, but expires daily. If the sync chip reports repeated disconnects, the key has probably been revoked.",
+        "Name": "Campaign Manager API key"
+      },
+      "ManagerUrl": {
+        "Hint": "Base URL of the Campaign Manager web app, e.g. https://manager.example.com. No trailing slash. Leave blank to disable the sync bridge.",
+        "Name": "Campaign Manager URL"
+      },
+      "NpcActorType": {
+        "Hint": "The Actor type content sync creates the Campaign Manager’s NPCs as. Detected from the active game system the first time an NPC is synced; change it here if the guess is wrong. Only affects Actors created after the change — an existing Actor keeps its type.",
+        "Name": "Actor type for synced NPCs"
+      },
+      "PerfReadout": {
+        "Hint": "Shows frame-time figures on the planet globe and counts the atlas’s animation frames (run __iaPerf.report() in the browser console to read them). For diagnosing slow rendering — leave it off otherwise. Per-player.",
+        "Name": "Performance readout (diagnostic)"
+      },
+      "PoiAssetBasePath": {
+        "Hint": "Folder containing the ship / station / point-of-interest artwork, one file per kind ({kinds}). No trailing slash.",
+        "Name": "POI art base path"
+      },
+      "ShowLabels": {
+        "Hint": "Draw each planet, star and point of interest’s name on system scenes. Per-player.",
+        "Name": "Show body name labels"
+      },
+      "ShowMissionBadges": {
+        "Hint": "Draw a status icon on every body that has a mission pinned to it. Per-player.",
+        "Name": "Show mission status badges"
+      },
+      "SiteAssetBasePath": {
+        "Hint": "Folder containing the surface-site artwork, one file per kind ({kinds}). No trailing slash.",
+        "Name": "Site art base path"
+      },
+      "ViewTilt": {
+        "Hint": "0 = straight-down, 63 = angled orrery view matching the Campaign Manager. Animation applies this live; regenerate a system scene to redraw its orbit paths at the new tilt.",
+        "Name": "System view tilt (degrees)"
+      },
+      "WindowAnimation": {
+        "Hint": "Move planets, moons and stations in the atlas window’s system view. Per-player: turning it off holds this window still while the rest of the world keeps moving, so turning it back on catches the bodies up. To stop the orbits everywhere, for every client, use the world-level “Pause orbital animation” setting instead.",
+        "Name": "Animate orbits in the atlas window"
+      },
+      "ZoomSpeed": {
+        "Choice": {
+          "Cinematic1": "Cinematic — 1 s",
+          "Cinematic15": "Cinematic — 1.5 s",
+          "Cinematic2": "Cinematic — 2 s",
+          "Off": "Off (instant)",
+          "Quick": "Quick (450 ms)"
+        },
+        "Hint": "How the atlas window moves between its views: opening a star system from the galaxy map, or a planet or moon from its system, zooms into it, and going back zooms out; a planet’s globe and its surface map cross-fade briefly. Quick suits a GM at the keyboard; the cinematic lengths are for a table screen. Per-player. Off switches instantly, and so does your operating system’s reduced-motion setting, which always wins.",
+        "Name": "Deep zoom (atlas window)"
+      },
+      "MissionObjectArt": {
+        "Name": "Mission object art folder",
+        "Hint": "A folder in your Foundry Data with your own token art for battle-map mission objects, matched by name: Terminal.png, Terminal_Red.png, Crate.png, Crate_Blue.png, Door.png (a bar across the wall, on a square canvas)… Anything missing keeps the painted token. Leave empty to use painted tokens only."
+      }
+    },
+    "Site": {
+      "AddSite": "Add Site",
+      "DragToRepositionNote": "Drag the site tile on the canvas to reposition it.",
+      "Empty": {
+        "NoSites": "No sites on this world yet.",
+        "OpenPlanetScene": "Open a planet scene to manage its sites.",
+        "WorldGoneFromStore": "This scene projects a world that is no longer in the galaxy store."
+      },
+      "KindFollowsManagerTooltip": "Kind follows the Campaign Manager settlement type and cannot be edited here.",
+      "Notes": "Notes",
+      "Notify": {
+        "MovedTo": "{name} moved to ({x}, {y})."
+      },
+      "RemoveConfirmMessage": "Remove {name}?",
+      "RemoveConfirmWindowTitle": "Remove Site",
+      "SyncedBadge": "synced",
+      "SyncedBadgeTooltip": "Synced from a Campaign Manager settlement. Kind and name follow the Manager; position and notes are edited here.",
+      "SyncedNameTooltip": "Rename this settlement in the Campaign Manager, not here."
+    },
+    "Stage": {
+      "Announce": {
+        "Created": "staged as a new scene",
+        "Message": "{what} {action}{suffix}.",
+        "Updated": "re-staged"
+      },
+      "Button": {
+        "Fresh": "Re-stage (up to date)",
+        "Never": "Stage as scene",
+        "Stale": "Re-stage (out of date)"
+      },
+      "CitySuffix": "City",
+      "Kind": {
+        "City": "City map",
+        "Surface": "Surface map"
+      },
+      "StaleNotice": "staged scene is out of date — re-stage",
+      "SurfaceSuffix": "Surface",
+      "Title": {
+        "Fresh": "A staged scene for this map already exists and matches the current data. Re-stage to rebuild it anyway.",
+        "Never": "Build a Foundry scene from this map: baked background, interactive pins, ready for tokens. Baked scenes are always fog-free — use Foundry’s own scene fog on the staged scene instead.",
+        "StaleSuffix": "the map changed since this scene was staged."
+      },
+      "UnbakedNotice": "staged without baked background — upload unavailable",
+      "UnnamedSettlement": "Unnamed Settlement",
+      "UnnamedWorld": "Unnamed World"
+    },
+    "Sync": {
+      "Notify": {
+        "CredentialsRejected": "the Campaign Manager rejected your credentials (HTTP {status}). Update the Campaign Manager API key in the Campaign Atlas module settings.",
+        "Fetching": "fetching the latest from the Campaign Manager…",
+        "SyncFailed": "sync from the Campaign Manager failed — {message}"
+      }
+    },
+    "SyncChip": {
+      "HasUpdates": "Manager has updates",
+      "Limited": "Manager sync limited",
+      "MayHaveUpdates": "Manager may have updates",
+      "Offline": "Manager offline",
+      "Title": "Fetch the latest from the Campaign Manager and review the merge."
+    },
+    "Tier": {
+      "City": {
+        "EditBanner": "Drag points of interest and district labels · draw districts and roads · erase and stamp buildings · place points of interest · edit shapes and fields in the panel — every change goes to the Campaign Manager.",
+        "LayerUnreadable": "This map’s building layer is in a shape the atlas does not recognise — the eraser, stamp and road tools are unavailable for it.",
+        "ReadOnlyViewOfSettlement": "{reason} — read-only view of {name}'s Campaign Manager city map.",
+        "DetailFull": "This town has the most painted items it can hold (2,500). Remove some first.",
+        "AddDetail": "Add detail",
+        "AddDetailPrompt": "Add…",
+        "TimeOfDay": "Time of day",
+        "TimeOfDayFollow": "Campaign ({time})",
+        "TimeDay": "Day",
+        "TimeDusk": "Dusk",
+        "TimeNight": "Night"
+      },
+      "CityGenerate": {
+        "Advanced": "Advanced",
+        "AdvancedNone": "none",
+        "AlreadyThisType": "This settlement already is one",
+        "AnchorToEdge": "Anchor the {label} to the {edge} edge",
+        "AnchorsClassicOnly": "Blended places quarters itself. Anchors are Classic only.",
+        "AutoSeedDecides": "Auto — the seed decides",
+        "CompassMoveNote": "Changing a quarter's compass moves its graft the way a Reroll does — existing quarter districts keep their old outlines. The anchor steers the search; the quarter still lands on the nearest edge slot that clears the civic core.",
+        "DetailEditedNote": "You have edited the painted map’s detail by hand (removed, moved, added or given it artwork). Regenerating rolls new detail and replaces those edits.",
+        "GreyedQuarterNote": "A greyed quarter is one this settlement already is — a garrison inside a GARRISON. Every other kind grafts onto every base.",
+        "GreyedQuarterShort": "A greyed quarter is one this settlement already is.",
+        "Layout": "Layout",
+        "MatchTerrain": "Match the terrain",
+        "MatchTerrainClassic": "Stored with the city. The classic layout reads none of it yet — switch to Blended to see it.",
+        "MatchTerrainOff": "Off — this city is generated from its seed alone, exactly as it would have been before the terrain knew where it was.",
+        "MatchTerrainOn": "The settlement’s own ground steers the plan, cuts the map at the shore, and names what it finds.",
+        "NoArchetype": "No archetype — this settlement type alone picks the base layout.",
+        "Plan": "Plan",
+        "PlanWheelOnly": "Classic always uses the wheel plan.",
+        "Preset": "Preset",
+        "PresetNone": "None",
+        "PresetSummary": "{label} preset",
+        "PresetsApplyToClassic": "Presets apply to the classic layout.",
+        "Quarters": "Quarters",
+        "ReplacesLayerNote": "Replaces the building and road layer, including anything stamped or drawn by hand. Districts and points of interest are left alone.",
+        "RerollDifferentLayoutTitle": "Generate a different layout",
+        "RerollMovesQuartersNote": "Reroll moves the quarters; existing quarter districts keep their old outlines — delete them first for a clean reroll.",
+        "Style": "Style",
+        "StyleAdobe": "Adobe",
+        "StyleAuto": "Auto",
+        "StyleClassic": "Classic",
+        "StyleHint": "How the town is built on the painted map. Auto: delved in cavern towns, adobe on desert worlds, industrial on frozen ones, airless on airless worlds, classic elsewhere. Airless (hab domes joined by tubes) and Delved (pods, mining prefab, ore-cart rails and pillar towers) may be picked on any world; the ground and the light stay the world’s. A garrison, spaceport or works stays industrial whatever you pick.",
+        "StyleIndustrial": "Industrial",
+        "StyleNext": "Takes effect on the next Generate.",
+        "StyleAirless": "Airless",
+        "StyleDelved": "Delved",
+        "AirlessCavern": "Airless world: Cavern suits it.",
+        "PadLook": "Pad look",
+        "PadLookHint": "Auto gives an open world’s landing pads the painted circle, the ferrocrete pad and the gantry cradle. Sunken docking bays sinks the medium pads and the bays in round walled pits instead; small pads stay painted. A garrison’s pads keep their blast walls, and a harbour town its stilts, either way.",
+        "PadLookAuto": "Auto",
+        "PadLookSunken": "Sunken docking bays",
+        "PadLookNext": "Takes effect on the next Generate."
+      },
+      "Draft": {
+        "CancelEsc": "Cancel (Esc)",
+        "ClickAtLeast": "Click at least {min} points first",
+        "CreateThe": "Create the {noun}",
+        "DrawingA": "Drawing a {noun} — {count} point{s}{needSuffix}",
+        "Finish": "Finish",
+        "NeedSuffix": " (need {min})",
+        "RemoveLastPoint": "Remove the last point",
+        "UndoPoint": "Undo point"
+      },
+      "EditingUnavailable": "Editing is unavailable",
+      "EditsWriteBackNote": "Edits write straight back to the Campaign Manager, which stays the source of truth.",
+      "Faction": {
+        "FromRegionNamed": "(from region) {name}",
+        "FromRegionNone": "(from region) none",
+        "None": "None"
+      },
+      "FinishOrCancelShapeFirst": "Finish or cancel the shape edit first",
+      "FitMap": "Fit the map",
+      "Fog": {
+        "ConcealAll": "Conceal all",
+        "ConcealUnderBrush": "Conceal under the brush",
+        "ConcealWholeMap": "Conceal the whole map",
+        "FogThisMap": "Fog this map",
+        "PlayerNote": "Players see concealed ground as blank board and cannot open a settlement under it. You always see the whole map — concealed ground is hatched.",
+        "RevealAll": "Reveal all",
+        "RevealUnderBrush": "Reveal under the brush",
+        "RevealWholeMap": "Reveal the whole map",
+        "SwitchOnFirst": "Switch fog on for this map first",
+        "ThisMapOnly": "Fog for THIS map only"
+      },
+      "FogOfWar": {
+        "Off": "Fog of war",
+        "On": "Fog of war (on for this map)"
+      },
+      "GenerateCityLayout": "Generate the city layout",
+      "GenerateTerrain": "Generate terrain",
+      "Globe": "Globe",
+      "HideNames": "Hide names",
+      "Missing": {
+        "BackToGalaxy": "Back to the galaxy",
+        "GmReason": "It is no longer in the atlas — it may have been deleted or replaced by an import.",
+        "PlayerReason": "Your GM has not revealed this yet.",
+        "Title": "{what} unavailable",
+        "What": {
+          "Body": "Body",
+          "CityMap": "City map",
+          "Settlement": "Settlement",
+          "SurfaceMap": "Surface map",
+          "System": "System",
+          "Vessel": "Ship or station",
+          "BattleMap": "Battle map"
+        }
+      },
+      "NothingChartedYet": "Nothing charted yet.",
+      "Open": "Open",
+      "Orbital": {
+        "EditingNoteConditions": "Conditions are edited here. Orbits, names and art types stay in the scene-side Orbit Tool for now.",
+        "Fact": {
+          "Density": "Density",
+          "Direction": "Direction",
+          "GeneratedRadius": "Generated radius",
+          "OrbitFromParent": "Orbit (from parent)",
+          "OrbitRadius": "Orbit",
+          "Period": "Period",
+          "Phase": "Phase",
+          "Placement": "Placement",
+          "Sites": "Sites"
+        },
+        "FixedAt": "Fixed at {x}, {y}",
+        "OpenPlanetView": "Open planet view",
+        "PeriodMinutes": "{n} min",
+        "PeriodSeconds": "{n} s",
+        "PeriodSpeedSuffix": "{base} (×{mult} speed)",
+        "Prograde": "Prograde",
+        "PxValue": "{n} px",
+        "Retrograde": "Retrograde",
+        "SetByGm": "Set by the GM in the Orbit Tool",
+        "SystemCentre": "System centre",
+        "Type": {
+          "Star": "Star"
+        }
+      },
+      "PlacePoiHint": "Click where the new point of interest should go — its district is derived from the map.",
+      "PlaceSettlementHint": "Click where the new settlement should go — its region is derived from the map.",
+      "Planet": {
+        "CreateSurfaceMap": {
+          "Label": "Create surface map",
+          "Meta": "Creates the map in the Campaign Manager, then generate terrain from the surface view.",
+          "Title": "Create a Campaign Manager surface map for {name}"
+        },
+        "Fact": {
+          "Missions": "Missions",
+          "Moons": "Moons",
+          "OrbitBand": "Orbit band",
+          "SitePins": "Site pins",
+          "Size": "Size",
+          "SurfaceRevision": "Surface revision"
+        },
+        "FooterNote": "Regions, rivers and city maps render — and, for a GM with the bridge connected, edit — in the surface and city tiers. Every change writes back to the Campaign Manager, which stays the source of truth.",
+        "HiddenFromPlayers": "Hidden from players",
+        "NoSurfaceMap": "No Campaign Manager surface map for this body — the globe above is a procedural likeness, and the body keeps its local site pins.",
+        "OpenMoon": "Open {name}",
+        "OpenScene": "Open scene",
+        "OpenSceneTitle": "Open the staged Foundry scene for play",
+        "OverrideLabel": "GM override art",
+        "RegionsSettlementsMeta": "{regions} regions · {settlements} settlements",
+        "RockFieldHint": "This body draws as a field of rocks rather than a disc — open the system view to see it.",
+        "Section": {
+          "Conditions": "Conditions",
+          "Moons": "Moons",
+          "Settlements": "Settlements",
+          "Surface": "Surface",
+          "World": "World"
+        },
+        "SettlementCityMap": "City map ›",
+        "SettlementOnSurface": "On the surface map ›",
+        "SurfaceMapMeta": "surface map",
+        "SurfaceRevisionShort": "Surface rev {n}",
+        "SynthesizedLabel": "Procedural appearance — no surface map",
+        "Type": {
+          "AsteroidBelt": "Asteroid belt",
+          "Moon": "Moon",
+          "Planet": "Planet"
+        },
+        "ViewSurfaceMap": "View surface map",
+        "VisibleToPlayers": "Visible to players"
+      },
+      "Preview": {
+        "AnimSpeedHint": "{n} s at animation speed 1×",
+        "AsteroidBelt": "Asteroid Belt",
+        "Band": "Band",
+        "CensusBelts": "{n} belt{s}",
+        "CensusMoons": "{n} moon{s}",
+        "CensusPlanets": "{n} planet{s}",
+        "Dossier": "Dossier",
+        "Hidden": "hidden",
+        "HiddenFromPlayersTitle": "{name} (hidden from players)",
+        "LuminosityHint": "stellar luminosity ≈ {l} · thresholds scale by √L",
+        "Missions": "Missions",
+        "NMoons": "{n} moons",
+        "NoCap": "No",
+        "NoChartedBodies": "no charted bodies",
+        "NothingChartedYet": "Nothing has been charted in this system yet.",
+        "OneMoon": "1 moon",
+        "OpenPlanetScene": "Open Planet Scene",
+        "OpenSystemScene": "Open System Scene",
+        "OrdinalFromStar": " · {ordinal} from the star",
+        "PinnedByGmHint": "pinned by GM — Orbit Tool → Traits resets to Auto",
+        "PxOnScene": "{n} px on the scene",
+        "SelectABody": "Select a body to inspect it.",
+        "Size": {
+          "Giant": "Giant",
+          "Large": "Large",
+          "Medium": "Medium",
+          "Small": "Small",
+          "Tiny": "Tiny",
+          "XLarge": "X-Large"
+        },
+        "UnchartedSpace": "Uncharted Space",
+        "UnchartedSpaceHint": "This system is not in the atlas — it may have been removed, or it has not been revealed to you yet.",
+        "YesCap": "Yes"
+      },
+      "ReadOnlyMapSuffix": "{reason} — this map is read-only.",
+      "ReadOnlyViewOfManagerMap": "{reason} — read-only view of the Campaign Manager's map.",
+      "RoadTier": {
+        "Arterial": "Arterial",
+        "Major": "Major road",
+        "Minor": "Minor road"
+      },
+      "RoadWeight": "Road weight",
+      "RouteFirstHint": "Click the first settlement of the route.",
+      "RouteFromHint": "Route from {name} — click the second settlement.",
+      "Shape": {
+        "DiscardTitle": "Discard the changes (Esc)",
+        "Done": "Done",
+        "Editing": "Editing this {noun}’s shape — {points} points. Drag a handle to move it, click a midpoint to add one, Alt-click to delete one.",
+        "SaveTitle": "Save the shape to the Campaign Manager"
+      },
+      "ShowAsGlobe": "Show {name} as a globe",
+      "ShowNames": "Show names",
+      "Surface": {
+        "EditBanner": "Drag settlements and region labels · draw regions, rivers and routes · place settlements · edit shapes and fields in the panel — every change goes to the Campaign Manager."
+      },
+      "SurfaceGenerate": {
+        "NeverGeneratedNote": "This map has never been generated. Regenerate uses a seed derived from the planet itself; Reroll picks a random one.",
+        "RegenerateTitle": "Generate with the stored seed",
+        "RerollTitle": "Generate a different world",
+        "SeedNote": "Regenerate keeps this world’s seed — same landmass, new dials. Reroll draws a different world."
+      },
+      "Tool": {
+        "BuildingStamp": "Building stamp — drag for size and angle, click for 70×50",
+        "DrawDistrict": "Draw district — click points, then Finish (min 3)",
+        "DrawRegion": "Draw region — click points, then Finish (min 3)",
+        "DrawRiver": "Draw river — click points, then Finish (min 2)",
+        "DrawRoad": "Draw road — click points, then Finish",
+        "DrawRoute": "Draw route — click two settlements",
+        "Eraser": "Eraser — click a building, pad, road or wall",
+        "PlacePoi": "Place point of interest — click where it should go",
+        "PlaceSettlement": "Place settlement — click where it should go",
+        "Select": "Select — click to inspect, drag to move",
+        "EditDetail": "Edit detail — click to select, drag to move; add from the palette"
+      },
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out",
+      "Vessel": {
+        "Open": "Open vessel →",
+        "NoInterior": "That has no inside to open.",
+        "NoCanvas": "This browser could not draw the vessel.",
+        "ZoomIn": "Zoom in",
+        "ZoomOut": "Zoom out",
+        "Fit": "Fit",
+        "CutawayTitle": "Lift the roof off to see the deck plan",
+        "Cutaway": "Cutaway",
+        "Section": "Showing one section: the {section}.",
+        "ExteriorOnly": "You can see the outside of this vessel only.",
+        "Class": "Class",
+        "DefaultClass": "Default ({name})",
+        "Look": "Look",
+        "AutoLook": "Auto ({name})",
+        "Layout": "Layout",
+        "RerollTitle": "Generate a different vessel of this class",
+        "Reroll": "Reroll",
+        "PlayersSeeInside": "Players see inside",
+        "Registry": "Registry",
+        "SpecGm": "GM",
+        "SpecHidden": "hidden",
+        "SpecEditedNote": "Sheet edited in the Campaign Manager. Hidden rows are not shown to players.",
+        "StageTitle": "Build a Foundry battle map of this deck",
+        "Stage": "Stage as battle map",
+        "StaleBattle": "The battle map \"{name}\" shows an older layout of this vessel. Stage it again to regenerate it; tokens and your own edits are kept.",
+        "Custom": "A custom deck plan.",
+        "CustomGm": "A custom deck plan. Its images, room pins and grid are set in the Campaign Manager.",
+        "CustomCutawayTitle": "Fade the exterior off the deck plan",
+        "Grid": "Grid",
+        "GridTitle": "Show the calibrated grid",
+        "CustomMissing": "The deck plan has not been brought into this world yet. Ask the GM to open this vessel.",
+        "CustomFailedGm": "The deck plan image could not be loaded or copied from the Campaign Manager. Check the Manager connection, then reopen the vessel.",
+        "StageCustomTitle": "Build a Foundry battle map of this plan on its calibrated grid",
+        "StageUncalibrated": "To stage this plan as a battle map, calibrate its grid in the Campaign Manager’s vessel view.",
+        "DockedAria": "{cls}, with {name} docked alongside",
+        "DockedAlongside": "{name} docked alongside",
+        "PartyDockedShip": "The party is docked here ({name}).",
+        "PartyDocked": "The party is docked here.",
+        "Heading": "Heading",
+        "TurnLeft": "Turn left 45°",
+        "TurnRight": "Turn right 45°",
+        "HeadingReset": "Reset",
+        "HeadingResetTitle": "Face the way it is painted",
+        "Size": "Size",
+        "SizeNormal": "Normal (as its class)",
+        "SizeSmaller": "Smaller",
+        "SizeLarger": "Larger",
+        "EditedDeck": "Edited deck (from {source}), rev {rev}",
+        "DeckLockedTitle": "Deck edited in the Manager",
+        "DeckLocked": "Deck edited in the Manager. Its class, look and layout are set there; Revert to generated deck in the Manager’s deck editor brings these back.",
+        "DeckError": "The edited deck could not be read ({reason}). This is the vessel it was made from."
+      }
+    },
+    "Toolbar": {
+      "CancelDrawing": "Cancel drawing (Esc)",
+      "ClosePolygon": "Close polygon (Enter)",
+      "DeleteSelected": "Delete selected (Del)",
+      "EditMode": {
+        "Editing": "Editing",
+        "Enter": "Enter edit mode",
+        "Leave": "Leave edit mode (read-only view)",
+        "ReadOnly": "Read-only"
+      },
+      "FinishRoute": "Finish route (Enter)",
+      "GridCompass": "Grid & compass",
+      "Hint": {
+        "AddGlow": "Click to place the core glow · Esc to cancel",
+        "AddLabel": "Click the map to place a label · Esc to cancel",
+        "AddSystem": "Click the map to place a system · Esc to cancel",
+        "Connect": "Click a source system, then its destination · Esc to cancel",
+        "DrawBox": "Click one corner, then the opposite corner · Esc to cancel",
+        "DrawRing": "Click the ring centre, then its edge · Esc to cancel",
+        "DrawRoute": "Click to add points · double-click or Enter to finish · Esc to cancel",
+        "DrawSector": "Click to add vertices · double-click or Enter to close · Esc to cancel",
+        "PlaceMarker": "Click the map to drop a marker · Esc to cancel",
+        "PresetRings": "Click the galactic centre — drops the five region rings + core glow · Esc to cancel"
+      },
+      "Overlay": {
+        "CellSize": "Cell size",
+        "CompassVisibleToPlayers": "Compass visible to players",
+        "CoordinateLabels": "Coordinate labels",
+        "GridVisibleToPlayers": "Grid visible to players",
+        "ShowCompass": "Show compass",
+        "ShowGrid": "Show grid"
+      },
+      "Tool": {
+        "AddGlow": "Place core glow",
+        "AddLabel": "Add text label",
+        "AddSystem": "Add system",
+        "Connect": "Connect systems",
+        "DrawBox": "Draw callout box",
+        "DrawRing": "Draw region ring",
+        "DrawRoute": "Draw route",
+        "DrawSector": "Draw sector",
+        "PlaceMarker": "Place marker",
+        "PresetRings": "Drop region rings preset",
+        "Select": "Select / move (Esc)"
+      }
+    },
+    "Travel": {
+      "Button": {
+        "Label": "Request travel here",
+        "NoGm": "No GM is connected to answer a travel request.",
+        "Pending": "Your travel request is waiting for the GM.",
+        "PendingLabel": "Travel requested",
+        "Title": "Ask the GM to move the party here along the lane",
+        "TitleStraight": "Ask the GM to move the party here, flying straight there"
+      },
+      "Dialog": {
+        "Approve": "Approve",
+        "Deny": "Deny",
+        "Question": "{player} asks to travel from {from} to {to}.",
+        "Title": "Travel request",
+        "TravelTime": "Travel time: {time}"
+      },
+      "Notify": {
+        "Approved": "The GM approved travel to {system}.",
+        "Denied": "The GM declined travel to {system}.",
+        "Failed": "The GM approved your travel request, but the move could not be saved.",
+        "Moved": "Your travel request was not applied: the party had already moved.",
+        "Sent": "Travel request sent: {system}. Waiting for the GM.",
+        "Superseded": "Your travel request was replaced by a newer one."
+      },
+      "UnknownPlayer": "A player",
+      "UnknownSystem": "an unknown system",
+      "UnknownMarker": "an unknown place",
+      "Callout": {
+        "Contact": "Unresolved sensor contact in deep space.",
+        "DeepSpace": "Deep space."
+      }
+    },
+    "ViewPush": {
+      "ShowAnyway": "Show anyway",
+      "ShowPlayersDialogTitle": "Show players",
+      "ShownToPlayers": "Shown to players."
+    },
+    "WindowTitle": {
+      "Atlas": "Campaign Atlas",
+      "BattleMap": "Battle map",
+      "GeneratorDialog": "Generate Galaxy Content",
+      "ImportDialog": "Import Campaign Manager Galaxy",
+      "OrbitTool": "Orbit Tool",
+      "PoiPlacer": "POI Placer",
+      "SiteManager": "Site Manager",
+      "SystemPreview": "System Preview",
+      "GmKey": "Campaign Atlas: GM key"
+    },
+    "GmKey": {
+      "Copied": "the GM key is on the clipboard.",
+      "CopyFailed": "couldn't copy: select the key and copy it by hand.",
+      "BackupFailed": "the galaxy backup couldn't be made (is the GM key on this browser?).",
+      "Status": {
+        "Ready": "Protected. This browser holds the GM key.",
+        "Legacy": "Not protected yet: every player's browser receives the whole galaxy, hidden things included.",
+        "Loading": "Opening the protected galaxy…",
+        "WrongKey": "Protected, but the key on this browser doesn't open it. The Atlas is read-only here until the right key is entered.",
+        "Unreadable": "Protected, but the stored GM galaxy can't be read. Restore it from a backup.",
+        "NoKey": "Protected, but this browser has no GM key. The Atlas is read-only here until the key is entered."
+      },
+      "ProtectHint": "Protecting seals the GM galaxy with a key only GM browsers hold; players get a copy with only what they may see.",
+      "Protect": "Protect the galaxy…",
+      "Show": "Show",
+      "Copy": "Copy",
+      "Export": "Export",
+      "KeyHeading": "GM key",
+      "ShareHint": "Give this key to any other GM or Assistant GM, by hand: they enter it once on each browser they use.",
+      "Change": "Change key…",
+      "EnterPlaceholder": "Paste the GM key",
+      "Use": "Use this key",
+      "LoadFile": "Load key file",
+      "EnterHeading": "Enter a key on this browser",
+      "BackupHeading": "Backup",
+      "BackupHint": "A plain JSON copy of the whole galaxy. Without the key the protected galaxy cannot be opened, so keep backups.",
+      "Backup": "Back up galaxy",
+      "Upgrade": {
+        "Intro": "Campaign Atlas 0.4.0 keeps the GM's galaxy away from players. Until now every player's browser received the whole galaxy, hidden systems and notes included.",
+        "How": "The GM galaxy will be sealed with this key, which only GM browsers hold. Save it somewhere safe (a password manager is ideal): without it the protected galaxy cannot be opened.",
+        "Saved": "I've saved the key",
+        "Backup": "A backup of the galaxy downloads first. Older Atlas versions must not be used on this world afterwards.",
+        "Go": "Protect now",
+        "SaveFirst": "save the key first, then tick the box.",
+        "Done": "the galaxy is protected. Players now receive only what they may see.",
+        "Failed": "the galaxy couldn't be protected: {message}",
+        "Later": "Later"
+      },
+      "Entered": "the GM key opens the galaxy. Editing is back on this browser.",
+      "NotAKey": "that isn't a GM key (43 letters, digits, - and _).",
+      "NotProtected": "this world's galaxy isn't protected yet, so there is nothing to open.",
+      "WrongKey": "that key doesn't open this world's galaxy.",
+      "ChangeConfirm": "Make a new GM key? Every other GM browser will need the new key before it can edit again.",
+      "Title": "Campaign Atlas: GM key",
+      "Changed": "a new GM key is in use. Save it and give it to the other GMs.",
+      "ChangeFailed": "the key couldn't be changed; the old one still works.",
+      "MenuName": "GM key",
+      "MenuLabel": "GM key and backup",
+      "MenuHint": "The key that keeps the GM's galaxy away from players: show, copy, export, enter or change it, and back up the galaxy.",
+      "Chip": {
+        "LoadingTitle": "Opening the protected galaxy…",
+        "Title": "This browser has no GM key (or the wrong one), so it shows the player copy and cannot edit. Click to enter the key.",
+        "Loading": "Opening galaxy…",
+        "Locked": "GM key needed: read-only"
+      }
+    },
+    "Conditions": {
+      "Auto": "Auto",
+      "AutoValue": "Auto — {value}",
+      "LocalNote": "An Atlas-only body: its conditions are saved in the Atlas only.",
+      "OfflineNote": "This body’s conditions live in the Campaign Manager. They can be edited again when it is connected.",
+      "PinnedTitle": "Pinned by the GM",
+      "Notify": {
+        "ArtTypeUnavailable": "Campaign Atlas: art type changes are not reaching the Campaign Manager ({reason}). The next import will bring back the Manager’s art type.",
+        "PushDone": "sent the conditions and art types of {count} bodies to the Campaign Manager. From now on its values win.",
+        "PushPartial": "{failed} of {total} bodies’ conditions did not reach the Campaign Manager; they will be sent on the next connect.",
+        "Unavailable": "conditions on this body cannot be edited right now ({reason})."
+      }
+    }
+  }
+}
