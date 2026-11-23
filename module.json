@@ -2,10 +2,10 @@
   "id": "campaign-atlas",
   "title": "Campaign Atlas",
   "description": "Galaxy atlas for Foundry VTT: an interactive galaxy map window with GM editing and player reveal, drilling down into generated star-system and planet scenes with orbital animation, procedural generation, auto journal dossiers, and Campaign Manager content sync and outcome recording.",
-  "version": "0.4.29",
+  "version": "0.4.30",
   "url": "https://github.com/casegib/campaign-atlas",
   "manifest": "https://github.com/casegib/campaign-atlas/releases/latest/download/module.json",
-  "download": "https://github.com/casegib/campaign-atlas/releases/download/v0.4.29/module.zip",
+  "download": "https://github.com/casegib/campaign-atlas/releases/download/v0.4.30/module.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351"

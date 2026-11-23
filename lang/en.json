@@ -879,6 +879,10 @@
         "Move": "This system is hidden from players: if the party moves here, they will see no marker until you reveal it."
       },
       "Here": "The party is here.",
+      "EdgeChip": {
+        "Label": "Party · {name}",
+        "Title": "Show the party — {name}"
+      },
       "MarkerLabel": "Party",
       "Notify": {
         "Conflict": "The party was not moved: it moved somewhere else in the meantime.",
@@ -1048,6 +1052,15 @@
         "Hint": "Which grid lines a generated battle map shows. Painted: the faint tactical grid is painted into the map image (the original look). Foundry's grid: the image has no lines and Foundry draws its own, so you can change their colour and opacity per scene in Scene Configuration. The squares, walls and tokens line up the same either way. Applies when a battle map is built or regenerated; a regenerated map switches to the chosen grid once, then keeps your own opacity.",
         "Name": "Battle map grid",
         "Painted": "Painted (original look)"
+      },
+      "GalaxyNames": {
+        "Choice": {
+          "Auto": "Auto — readable at every zoom, on any galaxy",
+          "Default": "Auto up to 250 systems, Map-scaled above",
+          "Scaled": "Map-scaled — every name at map size"
+        },
+        "Hint": "How system and sector names are drawn on the atlas window’s galaxy map. Auto draws names at a size you can read at any zoom, always naming the party’s system and the systems with missions, then as many others as fit without overlapping; zoom in for more. Map-scaled draws every name at map size, as before, so names are tiny when zoomed out. The default uses Auto on galaxies of up to 250 systems and Map-scaled on bigger ones, where Auto pans more slowly on integrated graphics. Per-player.",
+        "Name": "Galaxy map names"
       },
       "HeroActorType": {
         "Hint": "The Actor type content sync creates the Campaign Manager’s characters (heroes) as. Detected from the active game system the first time a hero is synced; change it here if the guess is wrong. Only affects Actors created after the change — an existing Actor keeps its type.",
