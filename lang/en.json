@@ -1333,6 +1333,16 @@
       "PlacePoiHint": "Click where the new point of interest should go — its district is derived from the map.",
       "PlaceSettlementHint": "Click where the new settlement should go — its region is derived from the map.",
       "Planet": {
+        "Chart": {
+          "Export": "Export PNG",
+          "ExportFailed": "The export failed.",
+          "ExportGmOnly": "Include GM-only places",
+          "Exporting": "Painting the poster",
+          "North": "Northern hemisphere",
+          "Painting": "Charting",
+          "South": "Southern hemisphere",
+          "Subtitle": "Polar chart · Lambert azimuthal equal-area · parallels every 15°, meridians every 30°"
+        },
         "CreateSurfaceMap": {
           "Label": "Create surface map",
           "Meta": "Creates the map in the Campaign Manager, then generate terrain from the surface view.",
@@ -1371,6 +1381,13 @@
           "AsteroidBelt": "Asteroid belt",
           "Moon": "Moon",
           "Planet": "Planet"
+        },
+        "View": {
+          "Globe": "Rotatable globe",
+          "Label": "Globe or polar chart",
+          "Polar": "Polar chart — both hemispheres, pole-on",
+          "PolarOlder": "Polar chart — not available for this world’s terrain",
+          "PolarOlderGm": "Polar chart — regenerate this world in the Campaign Manager to draw it (its terrain predates sphere terrain)"
         },
         "ViewSurfaceMap": "View surface map",
         "VisibleToPlayers": "Visible to players"
